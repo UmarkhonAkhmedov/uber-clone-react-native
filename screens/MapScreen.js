@@ -1,4 +1,4 @@
-import { StyleSheet, View } from 'react-native';
+import { View } from 'react-native';
 import React from 'react';
 import tw from "tailwind-react-native-classnames"
 import Map from '../components/Map';
@@ -18,4 +18,3 @@ const MapScreen = () => {
 
 export default MapScreen;
 
-const styles = StyleSheet.create({});
