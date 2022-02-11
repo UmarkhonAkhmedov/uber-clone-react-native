@@ -7,7 +7,7 @@ import { GOOGLE_MAPS_APIKEY } from "@env"
 import { useDispatch } from 'react-redux';
 import { setDestination, setOrigin } from '../slices/navSlice';
 
-const HomeScreen = ({navigation}) => {
+const HomeScreen = () => {
   const dispatch = useDispatch();
 
   return (
