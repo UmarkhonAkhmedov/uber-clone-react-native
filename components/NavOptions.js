@@ -1,4 +1,4 @@
-import { FlatList, Image, StyleSheet, Text, TouchableOpacity, View } from 'react-native';
+import { FlatList, Image, Text, TouchableOpacity, View } from 'react-native';
 import React from 'react';
 import tw from 'tailwind-react-native-classnames';
 import { Icon } from 'react-native-elements/dist/icons/Icon';
@@ -42,4 +42,3 @@ const NavOptions = () => {
 
 export default NavOptions;
 
-const styles = StyleSheet.create({});
