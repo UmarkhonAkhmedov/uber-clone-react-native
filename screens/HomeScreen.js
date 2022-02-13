@@ -1,4 +1,4 @@
-import { View, SafeAreaView, Image, ScrollView } from 'react-native';
+import { View, SafeAreaView, Image } from 'react-native';
 import React from 'react';
 import tw from "tailwind-react-native-classnames"
 import NavOptions from '../components/NavOptions';
