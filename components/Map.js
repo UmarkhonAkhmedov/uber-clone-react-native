@@ -1,5 +1,5 @@
 import React from 'react';
-import MapView from 'react-native-maps';
+import MapView, { Marker } from 'react-native-maps';
 import tw from 'tailwind-react-native-classnames';
 
 const Map = () => {
@@ -9,9 +9,19 @@ const Map = () => {
         initialRegion={{
           latitude: 37.78825,
           longitude: -122.4324,
-          latitudeDelta: 0.0922,
-          longitudeDelta: 0.0421,
-        }}/>  
+          latitudeDelta: 0.005,
+          longitudeDelta: 0.005,
+    }}>
+      <Marker coordinate={{
+            latitude: 37.78825,
+            longitude: -122.4324,
+          }}
+          title="Origin"
+          description='San Francisco'
+          identifier='origin'
+        />
+    </MapView>
+      
   );
 };
 
